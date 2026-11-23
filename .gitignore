@@ -1,0 +1,19 @@
+# Derleme çıktıları
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+
+# Yerel veritabanı, JWT anahtarı ve yüklenen fotoğraflar (depoya girmez)
+**/App_Data/
+*.db
+*.db-shm
+*.db-wal
+**/wwwroot/uploads/
+
+# Gizli ayarlar
+appsettings.*.local.json
+.env
